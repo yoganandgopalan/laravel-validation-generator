@@ -1,0 +1,26 @@
+{
+    "name": "yoganandgopalan/laravel-validation-generator",
+    "description": "Laravel package for generating validation automatically",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoganand G",
+            "email": "yoganand_19_19@yahoo.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "yoganandgopalan\\LaravelValidationGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "yoganandgopalan\\LaravelValidationGenerator\\ValidationGeneratorServiceProvider"
+            ]
+        }
+    }
+}
